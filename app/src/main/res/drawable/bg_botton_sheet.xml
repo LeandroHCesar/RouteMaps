@@ -3,9 +3,10 @@
     android:shape="rectangle">
 
     <corners
-        android:topLeftRadius="20dp"
-        android:topRightRadius="25dp" />
-
-    <solid android:color="@color/my_light_primary" />
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+    <stroke android:width="0.5dp"
+        android:color="@color/text_hint" />
+    <solid android:color="@color/bg_bottom_sheet" />
 
 </shape>
