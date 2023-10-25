@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Route Maps</string>
+
+    <string name="permission_rationale_location">O acesso ao serviço de localização é necessário para demonstrar o recurso ‘minha localização’, que mostra sua localização atual no mapa.</string>
+    <string name="location_permission_denied">Este exemplo requer permissão de localização para ativar a camada \'meu local\'. Tente novamente e conceda acesso para usar o local.</string>
+    <string name="permission_required_toast">A permissão de localização é necessária para esta demonstração.</string>
+    <string name="my_location_button_clicked">Botão Meu local clicado.</string>
+</resources>

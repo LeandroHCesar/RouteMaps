@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_botton_sheet"
+    android:paddingHorizontal="16dp"
+    android:paddingBottom="16dp">
+
+    <!-- Conteúdo do BottomSheet -->
+
+    <ImageView
+        android:id="@+id/arrow_top"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_toggle"
+        android:importantForAccessibility="no" />
+
+    <!-- Outros elementos do BottomSheet -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Conteúdo do BottomSheet" />
+
+</LinearLayout>
