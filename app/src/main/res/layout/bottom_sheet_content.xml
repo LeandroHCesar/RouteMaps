@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
     android:background="@drawable/bg_botton_sheet"
+    android:orientation="vertical"
     android:paddingHorizontal="16dp"
     android:paddingBottom="16dp">
 
     <!-- Conteúdo do BottomSheet -->
-
     <ImageView
         android:id="@+id/arrow_top"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_height="10dp"
+        android:paddingTop="4dp"
         android:layout_gravity="center|top"
+        android:importantForAccessibility="no"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_toggle"
-        android:importantForAccessibility="no" />
+        android:src="@drawable/ic_toggle" />
 
     <!-- Outros elementos do BottomSheet -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:text="Conteúdo do BottomSheet" />
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
 
+        <EditText
+            android:id="@+id/addAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="14sp"
+            android:hint="Toque aqui para começar"
+            android:ems="10"
+            android:inputType="textAutoComplete"
+            android:drawableStart="@drawable/custom_ic_search"
+            android:drawableEnd="@drawable/custom_ic_microphone"
+            android:drawablePadding="12dp"
+            android:background="@drawable/custom_edit_text"
+            android:paddingHorizontal="10dp"
+            />
+
+    </LinearLayout>
 </LinearLayout>

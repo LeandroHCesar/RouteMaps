@@ -14,7 +14,7 @@ android {
         applicationId = "com.leandrocesar.routemaps"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
+        versionCode = 2
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -50,5 +50,5 @@ dependencies {
 
     implementation("com.google.android.gms:play-services-location:21.0.1")
     implementation("com.google.android.gms:play-services-maps:18.2.0")
-//    implementation("com.google.android.libraries.places:places:3.2.0")
+    implementation("com.google.android.libraries.places:places:3.2.0")
 }
